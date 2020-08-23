@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell us more about yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="form_conatiner">
+
+            <h1 id="title">NET<span>FLIX</span></h1>
+
+            <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
+
+            <form id="survey-form" action="">
+                <div class="box">
+                    <label for="name">Name</label><br/><input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="box">
+                    <label for="age">Age</label><br/><input type="text" id="age" name="age" placeholder="Age">
+                </div>
+
+
+                <div class="box">
+                    <label for="email">Email</label><br/><input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div class="box">
+                    <label>Content Type</label><br/>
+                    <select name="series">
+                        <option value="series">Series</option>
+                        <option value="movies">Movies</option>
+                        <option value="documentaries">Documentaries</option>
+                        <option value="concerts">Concerts</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <label>Movie Type</label><br/>
+                    <input type="checkbox" name="movie_type" value="comedy"> Comedy<br>
+                    <input type="checkbox" name="movie_type" value="action"> Action<br>
+                    <input type="checkbox" name="movie_type" value="romance"> Romance<br>
+                </div>
+
+                <div class="box">
+                    <label>Gender</label><br/>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other" > Other<br>
+                </div>
+
+                <div class="box">
+                    <label for="comments">Feed back</label><br/>
+                    <textarea name="comments" id="comments" rows="5" cols="30" placeholder="Any comments"></textarea>
+                </div>
+
+                <input id="submit" type="submit" value="Submit">
+
+            </form>
+         </body>
+      </html>
+ 
+      
+
+
+<!-- - Creat structure of the HTML5
+- Give name of your project (title)
+- Create the main structure of the container (div id="container")
+- Create Main Topic of the project (id="title")
+- Create a description of your project (id="description")
+- Create a form (id="survey-form")
+- Create 4 divisions (class="box") for each label and single-line text input field 
+  (Tips:Don't forget to use placeholder)
+- Create a division (class="box") for a dropdown list. (Tips:dont forget to use a label tag)
+- Create a division (class="box") for checkbox list
+- Create a division (class="box") for radio buttons
+- Create a division (class="box") for a multi-line input field (Tips: a text area)
+- Create a button for id="submit" the form -->
