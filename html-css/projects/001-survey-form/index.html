@@ -8,61 +8,57 @@
 </head>
 <body>
     <div id="container">
-        <div id="form_conatiner">
 
-            <h1 id="title">NET<span>FLIX</span></h1>
-
-            <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
-
+        <p id="title">NET<span>FLIX</span></p>
+        <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
             <form id="survey-form" action="">
                 <div class="box">
-                    <label for="name">Name</label><br/><input type="text" id="name" name="name" placeholder="Enter your name">
+                    <p>Name</p>
+                    <input type="text" class="first_boxes" name="name" placeholder="Enter your name">
                 </div>
                 <div class="box">
-                    <label for="age">Age</label><br/><input type="text" id="age" name="age" placeholder="Age">
+                    <p>Age</p>
+                    <input type="text" class="first_boxes" name="age" placeholder="Age">
                 </div>
-
-
                 <div class="box">
-                    <label for="email">Email</label><br/><input type="email" id="email" name="email" placeholder="Enter your email">
+                    <p>Email</p>
+                    <input type="email" class="first_boxes" name="email" placeholder="Enter your email">
                 </div>
-
                 <div class="box">
-                    <label>Content Type</label><br/>
-                    <select name="series">
+                    <p>Content Type</p>
+                    <select class="first_boxes" name="series">
                         <option value="series">Series</option>
                         <option value="movies">Movies</option>
                         <option value="documentaries">Documentaries</option>
                         <option value="concerts">Concerts</option>
                     </select>
                 </div>
-
                 <div class="box">
-                    <label>Movie Type</label><br/>
+                    Movie Type <br>
                     <input type="checkbox" name="movie_type" value="comedy"> Comedy<br>
                     <input type="checkbox" name="movie_type" value="action"> Action<br>
-                    <input type="checkbox" name="movie_type" value="romance"> Romance<br>
+                    <input type="checkbox" name="movie_type" value="romance" checked> Romance<br>
                 </div>
-
                 <div class="box">
-                    <label>Gender</label><br/>
+                    Gender <br>
                     <input type="radio" name="gender" value="male"> Male<br>
                     <input type="radio" name="gender" value="female"> Female<br>
                     <input type="radio" name="gender" value="other" > Other<br>
                 </div>
 
                 <div class="box">
-                    <label for="comments">Feed back</label><br/>
-                    <textarea name="comments" id="comments" rows="5" cols="30" placeholder="Any comments"></textarea>
+                    Feed back <br>
+                    <textarea name="comments" id="comments" rows="5" cols="35" placeholder="Any comments"></textarea>
                 </div>
 
-                <input id="submit" type="submit" value="Submit">
-
+                    <input id="submit" type="submit" value="Submit">
+                
             </form>
-         </body>
-      </html>
- 
-      
+
+    </div>
+</body>
+</html>
+
 
 
 <!-- - Creat structure of the HTML5
