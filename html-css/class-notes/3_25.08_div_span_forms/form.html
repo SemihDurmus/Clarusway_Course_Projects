@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="result.html" name="my_first_form" method="get">
+        <!-- Get method is default, and should only be used for sending short and not sensitive data -->
+        <label>Username: <br><input type="text" name="Name_of_user" placeholder="Paul"></label> 
+        <!-- Reason for embedding input into label is that input box activates when clicked on label.  -->
+        <br><br>
+
+        <label for="surname">Surname</label> <br>
+        <input type="text" name="Surame_of_user" id="surname" placeholder="Brown">
+        <!-- Label's 'for' should match input's 'id' -->
+        <br><br>
+
+        <label>Course Name</label> <br>
+        <input type="text" name="Course Name" placeholder="CS-101">
+        <!-- Here label does not indicate input, so when clicked on label input box does not activate -->
+        
+
+        <br><hr><br>
+    <!---------------- INPUT TYPES-------------- -->
+
+        <div>
+            <label>Password : <input type="password" name="pass" id="password"></label>
+        </div><br>
+
+        <div>
+            <label for="gender_1"><input type="radio" name="gender" value="male" id="gender_1" checked>Male</label><br>
+            <label for="gender_2"><input type="radio" name="gender" value="female" id="gender_2">Female</label> 
+        </div><br>
+
+        <div>
+            <input type="checkbox" name="Vehicle_1" id="Vehicle_1" value="Bicycle" checked>
+            <label for="Vehicle_1">Bicycle</label><br>
+            <input type="checkbox" name="Vehicle_2" id="Vehicle_2" value="Auto"checked>
+            <label for="Vehicle_2">Auto</label><br>
+            <input type="checkbox" name="Vehicle_3" id="Vehicle_3" value="Boat">
+            <label for="Vehicle_3">Boat</label><br>
+        </div><br>
+
+        <div>
+            <label>Age : <input type="number" name="age" id="age" step="2" min="18" max="100"></label>
+        </div>
+
+        <div>
+            <label>Search Google <input name="search_item" type="search" id="search_item"></label>
+        </div>
+
+        <div>
+            <label>Color : <input name="fav_color" type="color" id="fav_color"></label>
+        </div>
+
+        <div>
+            <label>Date : <input name="birth_date" type="date" id="birth_date" min="1985-12-31" max="2002-01-02"></label>
+        </div>
+
+        <div>
+            <label>Email : <input name="user_email" type="email" id="user_email" maxlength="20"></label>
+        </div>
+
+        <div>
+            <label>Upload a file<input name="file_upload" type="file" id="file_upload"></label>
+        </div>
+
+        <div>
+            <label>Mobile<input name="phone_nr" type="tel" id="phone_nr" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"></label>
+        </div>
+
+
+
+
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

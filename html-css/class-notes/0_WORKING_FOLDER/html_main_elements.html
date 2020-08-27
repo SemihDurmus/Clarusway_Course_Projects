@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> html Main Elements </title>
+        <style>
+            .title1 {
+                color: seagreen;
+                font-size: 30px;
+                text-align: center;
+            }
+            .title2 {
+                color:tomato;
+                font-size: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#bottom_of_the_page">Go to the bottom of the page</a>
+        <h1 class="title1">HTML Main Elements</h1>
+
+        <!-- Headings -->
+        <h2 class="title2"> Headings</h2>
+        <h1>Heading-1</h1>    
+        <h2>Heading-2</h2>   
+        <h3>Heading-3</h3>    
+        <h4>Heading-4</h4>    
+        <h5>Heading-5</h5>   
+        <h6>Heading-6</h6>   
+
+        
+        <!-- Paragraphs -->
+
+        <h2 class="title2"> Paragraphs & Text Formatting</h2>
+        
+        <h3>Paragraph 2 formatting examples</h3>
+        <p><b>Lorem ipsum </b> Lorem ipsum dolor sit.</p>
+        <p><strong>Lorem ipsum</strong> Lorem ipsum dolor sit.</p>
+        <p><i>Lorem ipsum</i> Lorem ipsum dolor sit.</p>
+        <p><em>Lorem ipsum</em> Lorem ipsum dolor sit.</p>
+        <p><u>Lorem ipsum</u> Lorem ipsum dolor sit.</p>
+        <p><ins>Lorem ipsum</ins> Underline here shows sth has changed here</p>
+        <p>x<sup>2</sup> + 4 = H<sub>2</sub>O</p>
+        <p><del>$200</del> $150</p>
+        <p><small>Lorem ipsum</small> Lorem ipsum dolor sit.</p>
+        <p><pre>
+            Text in a pre element
+            is displayed in a fixed-width
+          font, and it preserves
+            both     spaces and
+            line breaks
+            </pre></p>
+        <p><mark>Lorem ipsum</mark> Lorem ipsum dolor sit.</p>
+        <p><q>Lorem ipsum</q> Lorem ipsum dolor sit.</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+            </blockquote>
+
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+
+    <!--------- LISTS --------->
+    <h2 class="title2"> Lists</h2>
+
+    <h3 id=unordered>Unordered List</h3>
+    <!-- ul>li*5 -->
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- ul>li*5{item $} -->
+<ul style="list-style-type: square">
+    <li>item 1
+        <ul>
+            <li>sub_item 2
+                <ul>
+                    <li>Sub-Sub_item</li>
+                </ul>
+            </li>
+            <li>sub_item 2</li>
+        </ul>
+    </li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+</ul>
+
+<hr/>
+
+<h3>Ordered List</h3>
+<ol start="4" type="A">
+    <li>Item 1</li>
+    <li>Item 2
+        <ol type="I">
+            <li>Sub Item</li>
+            <li>Sub Item</li>
+            <li>Sub Item</li>
+        </ol>
+    </li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ol>
+
+<hr/>
+
+<h3>Definition List</h3>
+
+<dl>
+    <dt>Scale</dt>
+    <dd>A device used to weigh something</dd>
+    <dt>Sashimi</dt>
+    <dd>Sliced raw fish that is served with... </dd>
+</dl>
+
+<!-------- IMAGES ---------->
+
+<h2 class="title2">Images</h2>
+
+<img src="./images/barney.png" alt="Barney" width="100">
+<img src="https://banner2.cleanpng.com/20180515/xqw/kisspng-fred-flintstone-wilma-flintstone-barney-rubble-you-5afa9f4bd450e9.1191364215263742198697.jpg" height=110 alt="Fred">
+<!-- The image below does not exist -->
+<img src="./images/Bet.png" alt="Betty" width="100">
+
+<!-- with <base> tag in <head> we specify a default URL and a default target for all links on a page. So that we wont have to write all the directory again and again <base href="images/"> -->
+<hr>
+<!--------- TABLES -------->
+
+<h2 class="title2">Tables</h2>
+
+<table border=1 >
+    <!-- <thead> is to tell browser that this line is table's heading. <tbody> & <tfoot> for similar purpose  accordingly-->
+    <thead>
+        <tr>
+            <th>Main Area</th>
+            <th>Course Name</th>
+            <th>Course Time</th>
+            <th>Number of Class</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>Web Design</td>
+            <td>HTML</td>
+            <td>45 min</td>
+            <td>5</td>
+        </tr>
+        <tr  >
+            <td>Web Design</td>
+            <td>CSS</td>
+            <td>35 min</td>
+            <td rowspan=2>12</td>
+        </tr>
+        <tr>
+            <td colspan=2 align=left>Java Script</td>
+            <td>35 min</td>
+        </tr>
+    </tbody>  
+    <tfoot>
+        <tr>
+            <td colspan=2>Total</td>
+            <td align="center">115 min</td>
+            <td align="center">29</td>
+        </tr>
+    </tfoot>
+</table>
+<br>
+<hr>
+<!--------- LINKS -------->
+<h2 class="title2" id=bottom_of_the_page>Links</h2>
+
+<a href="https://www.imdb.com/" target="blank">IMDB</a>
+<br>
+<a href="../1_WORKING_FOLDER/html_main_elements.html" target="blank">A Practice on main elements</a>
+<br>
+<a href="index2.html">Index2</a>
+<br>
+<a href="./images/barney.png" target="blank">Barney.png</a>
+<br>
+<!-- Below tag is to download a file. The file to download should be compressed -->
+<a href="./practice_1.html.zip">Download</a>
+<br>
+<a href="./images/barney.png" target="blank"><img src="./images/barney.png" alt="Barney" width="50"></a>
+<br>
+<a href="#unordered">Turn back to Unordered Lists</a>
+
+<!-- ----------FORMS--------------- -->
+<h2 class="title2">Forms</h2>
+
+
+<form action="result.html" name="my_first_form" method="get">
+    <!-- Get method is default, and should only be used for sending short and not sensitive data -->
+    <label>Username: <br><input type="text" name="Name_of_user"></label> 
+    <!-- Reason for embedding input into label is that input box activates when clicked on label.  -->
+    <br><br>
+
+    <label for="surname">Surname</label> <br>
+    <input type="text" name="Surame_of_user" id="surname">
+    <!-- Label's 'for' should match input's 'id' -->
+    <br><br>
+
+    <label>Course Name</label> <br>
+    <input type="text" name="Course Name">
+    <!-- Here label does not indicate input, so when clicked on label input box does not activate -->
+    <br><br>
+    <input type="submit" value="Send Data">
+    </body>
+    
+    
+</html>

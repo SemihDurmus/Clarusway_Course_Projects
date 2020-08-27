@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recap Day 2</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* h2 {
+            color:tomato
+        } */
+    </style>
+</head>
+
+<body>
+
+    <p id="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, odio, quas est necessitatibus harum alias dolore eveniet, quae iusto molestiae voluptatem? Veniam mollitia molestias libero accusamus alias saepe similique commodi voluptatibus.</p>
+    <a href="#bottom_of_the_page">Go to bottom of the page</a>
+    <!--------- LISTS --------->
+    <h2 id="head">Unordered List</h2>
+    <!-- ul>li*5 -->
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- ul>li*5{item $} -->
+<ul style="list-style-type: square">
+    <li>item 1
+        <ul>
+            <li>sub_item 2
+                <ul>
+                    <li>Sub-Sub_item</li>
+                </ul>
+            </li>
+            <li>sub_item 2</li>
+        </ul>
+    </li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+</ul>
+
+<hr/>
+
+<h2>Ordered List</h2>
+<ol start="4" type="A">
+    <li>Item 1</li>
+    <li>Item 2
+        <ol type="I">
+            <li>Sub Item</li>
+            <li>Sub Item</li>
+            <li>Sub Item</li>
+        </ol>
+    </li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ol>
+
+<hr>
+
+<h2>Definition List</h2>
+
+<dl>
+    <dt>Scale</dt>
+    <dd>A device used to weigh something</dd>
+    <dt>Sashimi</dt>
+    <dd>Sliced raw fish that is served with condiments</dd>
+</dl>
+<hr>
+
+<!-------- IMAGES ---------->
+
+<h2>Images</h2>
+
+<img src="./images/barney.png" alt="Barney" width="100">
+<img src="https://banner2.cleanpng.com/20180515/xqw/kisspng-fred-flintstone-wilma-flintstone-barney-rubble-you-5afa9f4bd450e9.1191364215263742198697.jpg" height=110 alt="Fred">
+<!-- The image below does not exist -->
+<img src="./images/Bet.png" alt="Betty" width="100">
+
+<!-- with <base> tag in <head> we specify a default URL and a default target for all links on a page. So that we wont have to write all the directory again and again <base href="images/"> -->
+<hr>
+<!--------- TABLES -------->
+
+<h2>Tables</h2>
+
+<table border=1 >
+    <caption style="caption-side:bottom">Course Table</caption>
+    <!-- <thead> is to tell browser that this line is table's heading. <tbody> & <tfoot> for similar purpose  accordingly-->
+    <thead>
+        <tr>
+            <th>Main Area</th>
+            <th>Course Name</th>
+            <th>Course Time</th>
+            <th>Number of Class</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>Web Design</td>
+            <td>HTML</td>
+            <td>45 min</td>
+            <td>5</td>
+        </tr>
+        <tr  >
+            <td>Web Design</td>
+            <td>CSS</td>
+            <td>35 min</td>
+            <td rowspan=2>12</td>
+        </tr>
+        <tr>
+            <td colspan=2 align=left>Java Script</td>
+            <td>35 min</td>
+        </tr>
+    </tbody>  
+    <tfoot>
+        <tr>
+            <td colspan=2>Total</td>
+            <td align="center">115 min</td>
+            <td align="center">29</td>
+        </tr>
+    </tfoot>
+</table>
+<br>
+<hr>
+<!--------- LINKS -------->
+
+<h2 id=bottom_of_the_page>Links</h2>
+
+<a href="https://www.imdb.com/" target="blank">IMDB</a>
+<br>
+<a href="../1_WORKING_FOLDER/html_main_elements.html" target="blank">A Practice on main elements</a>
+<br>
+<a href="index2.html">Index2</a>
+<br>
+<a href="./images/barney.png" target="blank">Barney.png</a>
+<br>
+<!-- Below tag is to download a file. The file to download should be compressed -->
+<a href="./practice_1.html.zip">Download</a>
+<br>
+<a href="./images/barney.png" target="blank"><img src="./images/barney.png" alt="Barney" width="40"></a>
+<br>
+<a href="#head">Turn back to Unordered Lists</a>
+</body>
+</html> 
