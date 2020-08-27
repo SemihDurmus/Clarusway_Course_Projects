@@ -11,47 +11,49 @@
 
         <p id="title">NET<span>FLIX</span></p>
         <p id="description">Thank you for signing up at Netflix. Tell us more about yourself</p>
-            <form id="survey-form" action="">
+            <form id="survey-form" action="result.html" method="GET">
                 <div class="box">
-                    <p>Name</p>
-                    <input type="text" class="first_boxes" name="name" placeholder="Enter your name">
+                    <label for="name">Name</label><br><br>
+                    <input type="text" class="first_boxes" name="Name" id="name" placeholder=" Enter your name">
                 </div>
                 <div class="box">
-                    <p>Age</p>
-                    <input type="text" class="first_boxes" name="age" placeholder="Age">
+                    <label for="ge">Age</label><br><br>
+                    <input type="text" class="first_boxes" name="Age" id="age" placeholder=" Age">
                 </div>
                 <div class="box">
-                    <p>Email</p>
-                    <input type="email" class="first_boxes" name="email" placeholder="Enter your email">
+                    <label for="email">Email</label><br><br>
+                    <input type="email" class="first_boxes" name="Email" id="email" placeholder=" Enter your email">
                 </div>
                 <div class="box">
-                    <p>Content Type</p>
-                    <select class="first_boxes" name="series">
+                    <label for="content_type">Content Type</label><br><br>
+                    <select class="first_boxes" name="Content_type" id="content_type">
                         <option value="series">Series</option>
                         <option value="movies">Movies</option>
                         <option value="documentaries">Documentaries</option>
                         <option value="concerts">Concerts</option>
                     </select>
                 </div>
-                <div class="box">
-                    Movie Type <br>
-                    <input type="checkbox" name="movie_type" value="comedy"> Comedy<br>
-                    <input type="checkbox" name="movie_type" value="action"> Action<br>
-                    <input type="checkbox" name="movie_type" value="romance" checked> Romance<br>
+                <div class="box"> Movie Type <br>
+                    <input type="checkbox" name="Type_1" value="comedy" id="comedy">
+                    <label for="comedy">Comedy</label><br>
+                    <input type="checkbox" name="Type_2" value="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" name="Type_3" value="romance" checked>
+                    <label for="romance">Romance</label><br>
                 </div>
                 <div class="box">
                     Gender <br>
-                    <input type="radio" name="gender" value="male"> Male<br>
-                    <input type="radio" name="gender" value="female"> Female<br>
-                    <input type="radio" name="gender" value="other" > Other<br>
+                    <label for="male"><input type="radio" name="Gender" value="male" id="male"> Male</label><br>
+                    <label for="female"></label><input type="radio" name="Gender" value="female" id="female"> Female</label><br>
+                    <label for="other"></label><input type="radio" name="Gender" value="other" id="other"> Other</label><br>
                 </div>
 
                 <div class="box">
-                    Feed back <br>
-                    <textarea name="comments" id="comments" rows="5" cols="35" placeholder="Any comments"></textarea>
+                    <label for="comments">Feed back</label><br>
+                    <textarea name="Comments" id="comments" rows="5" cols="35" placeholder="Any comments"></textarea>
                 </div>
 
-                    <input id="submit" type="submit" value="Submit">
+                <input id="submit" type="submit" value="Submit">
                 
             </form>
 
@@ -74,3 +76,5 @@
 - Create a division (class="box") for radio buttons
 - Create a division (class="box") for a multi-line input field (Tips: a text area)
 - Create a button for id="submit" the form -->
+
+
