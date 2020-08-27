@@ -28,8 +28,13 @@ body {
     margin: 0;
 }
 
-#title span {
+#red {
     color:red;
+}
+
+#title #big {
+    font-size: 40px;
+    vertical-align: middle;
 }
 
 #description {
