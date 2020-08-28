@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="result.html" method="GET" name="my_form">
+
+        <!--------- DROPDOWN MENU ----------->
+        <div>
+            <label for="the_cars" >Choose a car :</label><br>
+            <select name="Cars" id="the_cars" multiple>
+                <!-- We can select multiple values with multiple attribute -->
+                <option value="Porsche">Porsche</option>
+                <option value="Masserati" selected>Masserati</option>
+                <option value="BMW" >BMW</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+        </div><br>
+        
+        <!--------- TEXT AREA ----------->
+
+        <div>
+            <textarea name="Message" id="message" style="height:200px; width:300px" maxlength="500">Tell us what you think<!-- We can use sizing tools other than cols="30" rows="10" with inline CSS -->
+            </textarea>
+        </div><br>
+
+        <!------------- DATALIST ------------->
+        
+        <div>
+            <label for="the_browsers">What is your browser:</label>
+            <input list="browsers" name="Options" id="the_browsers" required>
+            <datalist id="browsers">
+                <option value="Firefox"> 
+                <option value="Chrome">  
+                <option value="Safari">  
+                <option value="Opera">   
+                <option value="Explorer">
+
+            </datalist>
+        </div><br>
+        <!------------- FIELDSET ------------->
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="F_name" id="first_name" value="Paul"><br><br>
+            <label for="last_name" >Last Name:</label>
+            <input type="text" name="L_name" id="last_name" value="McCartney"><br>
+        </fieldset>
+        
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
