@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#fonts1{
+    color:brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fonts2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fonts3 {
+    color:brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#fonts4 {
+    font-family: 'Lobster', cursive;
+}
+
+#fonts5, #fonts6, #fonts7  {
+    color:brown;
+    font-family: 'Anton', sans-serif;
+}
+
+#fonts5{
+    font-style: italic;
+    font-size: 200%;
+}
+#fonts6{
+    color:#000000;
+    font-style: oblique;
+    font-size: 3vw;
+}
+
+#fonts7 {
+    font-weight: 900;
+    font-variant: small-caps ;
+}

@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+div {
+    border: 5px dotted salmon;
+    padding: 20px;
+    background-color: rgba(0,0,220,0.5);
+}
+
+p {
+    border: 5px solid yellow;
+    background-color: skyblue;
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px; */
+    /* padding: 15px 20px 15px 20px; */
+    padding: inherit;
+}
+

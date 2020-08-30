@@ -1,0 +1,50 @@
+#text1 {
+    color: yellowgreen;
+    text-align: left;
+    text-decoration: overline;
+    text-indent: 1em;
+}
+#text2 {
+    color: rgba(9, 12, 159, 0.8);
+    text-align: right;
+    text-decoration: underline wavy;
+    line-height: 2;
+    text-transform: lowercase;
+
+}
+#text3 {
+    color: tomato;
+    text-align: justify;
+    text-decoration: overline underline solid;
+    text-transform: capitalize;
+
+}
+#text4 {
+    color: hsla(120, 60%, 10%, 0.8);
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: salmon;
+    text-transform: uppercase;
+    word-spacing: 50px;
+
+
+}
+#text5 {
+    color: rgba(9, 12, 9, 0.8);
+    text-transform: lowercase;
+    letter-spacing: 6px;
+}
+
+#text6 {
+    font-size: 2em ;
+    color: #718093;
+    word-spacing: 30px;
+    letter-spacing: 9px;
+    direction: rtl;
+}
+
+#text7 {
+    font-size: 4em ;
+    text-shadow: 13px 5px 12px gray;
+    /* horizontal(req)-vertical(req)-blur radius-color */
+}

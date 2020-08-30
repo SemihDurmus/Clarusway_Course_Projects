@@ -1,0 +1,22 @@
+@mixin myValues {
+    color: $PrimaryTextColor;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+
+.main_block {
+    background: pink;
+    p {
+        color: $PrimaryTextColor;
+        @include myValues()
+        // Now we overwrite some attributes in @mixin
+        font-size: 1.5rem;
+    }
+    div {
+        background: yellowgreen;
+        p {
+            color:  $SecondaryTextColor;
+        }
+    }
+}

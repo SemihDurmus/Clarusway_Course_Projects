@@ -1,0 +1,22 @@
+@import "theme";
+@import "main_block";
+
+// When importing files we do not use _ and extension.
+
+h1 {
+    color: $PrimaryTextColor;
+    text-align: center;
+}
+
+// div {
+//     background-color: yellow;
+// }
+
+// div  p {
+//     color: $SecondaryTextColor
+// }
+
+
+
+
+

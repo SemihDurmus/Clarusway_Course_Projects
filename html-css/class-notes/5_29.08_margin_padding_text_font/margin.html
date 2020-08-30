@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <link rel="stylesheet" href="margin.css">
+</head>
+<body>
+
+    <div class="demo-box1">
+        <div class="one">ONE</div>
+        <div class="two">TWO</div>
+        <div class="three">THREE</div>
+    </div>
+
+
+<div class="bigbox">
+    <div class="demo-box1">
+        <div class="one">ONE</div>
+        <div class="two">TWO</div>
+        <div class="three">THREE</div>
+    </div>
+
+    <div class="demo-box2">
+        <div class="one">ONE</div>
+        <div class="two">TWO</div>
+        <div class="three">THREE</div>
+    </div>
+</div>
+
+    <ul>
+        <li>If 'margin-top', or 'margin-bottom' are 'auto', their used value is 0.</li>
+        <li>When a parent div [having no border-top] has a margin-top, and its child div on the top has a bigger margin-top => The bigger margin of the child div pushes down not only itself but also the parent div. A top border prevents it.</li>
+        <li>Two facing margins collapse. The bigger value works</li>
+    </ul>
+<!-------- BOX SIZING ---------->
+    <hr>    
+    <h2>Box Sizing</h2>
+    <div class="box box1">
+        BORDER BOX
+        100x100
+    </div>
+    <div class="box box2">
+        CONTENT BOX
+        100x100
+    </div>
+  
+</body>
+</html>
