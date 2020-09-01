@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+#one {
+    background-color: tomato;
+}
+
+#two {
+    background-color: yellowgreen;
+    /* position: relative; */
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+#m-box {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+#three {
+    background-color: skyblue;
+    position: sticky;
+    top:50px;
+    left: 50px;
+
+}
+
+#four {
+    background-color: brown;
+    width: 150px;
+    height: 900px;
+}
+
+#five {
+    background-color: violet;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 400px;
+    height: 700px;
+}
+
+ul li {
+    list-style-position: inside;
+}

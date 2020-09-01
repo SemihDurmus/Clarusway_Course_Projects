@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#div-1 {
+    display:inline-block;
+    background-color: tomato;
+    width: 400px;
+    height: 400px;
+}
+
+#span-1 {
+    display: inline-block;
+    /* display:none; */
+    /* visibility:hidden; */
+    background-color: #00FF00;
+    width: 200px;
+    height: 200px;
+    /* height&width values would not work if we did not change display to inline-block */
+    margin-bottom: 40px;
+}
+
+#span-2 {
+    background-color: #0000FF;
+}
+
+#div-2 {
+    background-color: violet;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}

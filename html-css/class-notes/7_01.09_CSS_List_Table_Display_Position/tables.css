@@ -1,0 +1,44 @@
+table, th, td {
+    border: 1px solid lightgray;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    height: 30px;
+    vertical-align: super;
+    background-color: salmon;
+    
+}
+
+caption {
+    /* caption-side: bottom; */
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    /* background-color: slategray; */
+}
+
+
+/* th:hover, td:hover {
+    background-color: powderblue;
+} */
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:hover {
+    background-color: powderblue;
+}
+
+
+

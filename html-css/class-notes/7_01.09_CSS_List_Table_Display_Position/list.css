@@ -1,0 +1,21 @@
+ul {
+    /* list-style-type: "\F44D"; */
+
+    /* list-style-type: url("/images/sqpurple.gif");
+    list-style-position: outside;
+    background-color: yellowgreen; */
+
+    list-style: square inside;
+}
+
+li {
+    border: 1px solid #000000;
+}
+
+
+
+
+li::before {
+    content: "\2764";
+    color: pink;
+}
