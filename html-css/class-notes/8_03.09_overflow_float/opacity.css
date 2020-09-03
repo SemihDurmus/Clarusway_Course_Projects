@@ -1,0 +1,17 @@
+h1 {
+    background-color: tomato;
+    opacity: 0.4;
+}
+
+p {
+    background-color: rgba(46,139,87,0.5);
+}
+
+img {
+    width: 160px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}

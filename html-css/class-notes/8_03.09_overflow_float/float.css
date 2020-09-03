@@ -1,0 +1,17 @@
+p {
+    border: 1px solid tomato;
+    padding: 5px;
+}
+
+/* .clear {
+    clear: left;
+} */
+
+
+img {
+    width: 200px;
+    /* position: absolute; */
+    top: 50px;
+    margin-right: 10px;
+    float: left;
+}

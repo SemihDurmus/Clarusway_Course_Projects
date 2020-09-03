@@ -1,0 +1,34 @@
+.box {
+    border: 1px solid black;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+#first {
+    overflow: visible;
+}
+#second {
+    margin-top: 100px;
+    overflow: hidden;
+}
+#third {
+    overflow: scroll;
+}
+#fourth {
+    overflow: auto;
+}
+#fifth {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#fifth p {
+    width: 1000px;
+}
+
+#sixth {
+    overflow-y: scroll;
+}
+
+#sixth p {
+    width: 1000px;
+}

@@ -1,0 +1,41 @@
+#container {
+    background-color: lightgray;
+    height: auto;
+    /* This prevents parent element collapse */
+    /* overflow: auto; */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin : 5px;
+    border: 1px solid black;
+}
+
+.clear {
+    /* This prevents parent element collapse (not reccomended)*/
+    /* clear: both; */
+}
+
+/* This prevents parent element collapse (Reccomended)*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#first {
+    background-color: tomato;
+    float: left;
+}
+#second {
+    background-color: dodgerblue;
+    float: left;
+
+}
+#third {
+    background-color: yellowgreen;
+    position: relative;
+    /* z-index: -1; */
+    float: left;
+}
