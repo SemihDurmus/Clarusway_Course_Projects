@@ -1,0 +1,20 @@
+.container {
+    background-color: brown;
+
+    // &__button--small {
+    //     background-color: greenyellow;
+    // }
+
+    // &__button--large {
+    //     background-color: gray;
+    // }
+
+    &__button {
+        &--small {
+            background-color: greenyellow;
+        }
+        &--large {
+            background-color: pink;
+        }
+    }
+}

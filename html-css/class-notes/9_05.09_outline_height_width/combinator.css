@@ -1,0 +1,19 @@
+div p {
+    background-color: deepskyblue;
+}
+
+#div_id p {
+    text-decoration: underline;
+}
+
+div > p {
+    color: brown;
+}
+
+div + p {
+    font-weight: bold;
+}
+
+#self_para_1 ~ a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

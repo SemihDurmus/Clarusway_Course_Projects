@@ -1,0 +1,19 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: brown;
+}
+
+.container__button--small {
+  background-color: greenyellow;
+}
+
+.container__button--large {
+  background-color: pink;
+}
+/*# sourceMappingURL=style.css.map */

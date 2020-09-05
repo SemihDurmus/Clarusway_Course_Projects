@@ -1,0 +1,35 @@
+
+/* a:link {
+    color: red;
+} */
+
+/* a {
+    color:red;
+} */
+
+a:visited{
+    color: black;  
+}
+
+a:hover {
+    color: seagreen;
+    cursor: progress;
+}
+
+a:active {
+    color:blue;
+}
+
+
+#message{
+    display:none;
+    background-color: cadetblue;
+}
+
+#show:hover + p{
+    display: block
+}
+
+
+
+

@@ -8,19 +8,25 @@ body {
     width: 500px;
     height: 300px;
     margin: 0 auto;
-    padding: 2%;
+    padding: 10px;
 }
 
 .auto_width {
     width: auto;
     height: auto;
+    margin-bottom: 50px;
     background-color: aquamarine;
+    outline: 10px dashed red;
+    outline-offset: 15px;
 }
 
 .length_width {
     width: 50px;
     height: 50px;
     background-color: bisque;
+    outline: 10px dashed yellowgreen;
+    outline-offset: 15px;
+    margin: 50px;
 }
 
 .percentage_width {
@@ -39,6 +45,10 @@ body {
     width: inherit;
     height: inherit;
     background-color: lightseagreen;
+    border: 1px solid darkblue;
+    outline: 15px ridge darkviolet;
+    outline-offset: -25px;
+    padding: 40px;
 }
 
 .max_width {
@@ -58,5 +68,6 @@ body {
     min-height: 150px;
     max-width: 200px;
     background-color: lightsalmon;
-
+    position: relative;
 }
+
