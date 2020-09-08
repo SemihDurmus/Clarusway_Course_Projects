@@ -1,30 +1,21 @@
-https://semihdurmus.github.io/Project_HC_02_Google_Landing_Page/
+# Project-003 : Parallax Website (HC-03)
 
-
-
-
-# Project-002 :Google Landing Page (HC-02)
+https://semihdurmus.github.io/Project_HC_03_Parallax_Website/.
 
 ## Description
-Project aims to create google landing page.
+Project aims to create parallax website.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to create a landing page. So you and your colleagues have started to work on the project.
+- Your company has recently started on a project that aims to create a parallax website. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton 
 
 ```
-002-google-landing-page (folder)
+003-parallax-website (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Definition of the project)   
-        |----appicon.png   
-        |----gfavicon.png
-		|----google_microphone.png
-		|----googlelogo.png
-		|----icon-menu.jpg
-		|----magnifying_glass.png
+|----images            # Given to the students (Images of the project)   
 |----solution
         |----index.html  
         |----style.css   
@@ -33,17 +24,17 @@ Project aims to create google landing page.
 
 ## Expected Outcome
 
-![Project 002 Snapshot](Project_002_.png)
+![Project 003 Snapshot](Project_003_.png)
 
 ## Objective
 
-Build a Landing that is functionally similar to this: [Google Landing Page](https://aaron-clarusway.github.io/google-landing--page/)
+Build a Landing that is functionally similar to this: [Parallax Website](https://aaron-clarusway.github.io/parallax-website/)
 
 ### At the end of the project, following topics are to be covered;
 
 - HTML 
 
-- List Properties-Tables / CSS-The Display Property-The position Property
+- List Properties
 
 - Overflow Property-The float Property-Opacity / Transparency-Units in CSS
 
@@ -62,20 +53,17 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 
 - Step 2: Create project folder for local public repo on your pc
 
-- Step 3: Create Survey Form
+- Step 3: Create Parallax Website
 
 >>Part-1 HTML Structure
 
 	- Creat structure of the HTML5
 	- Give name of your project (title)
-	- Create the main structure of the header (nav class="header-left)
-	- Create the main structure of the header (nav class="header-right)
-	- Create serachbar (div class="searchbar")
-	- Create footer 
+	- Create the main structur of the HTML
 
 >>Part-2 CSS Structure
 
-	- Set a background and define font-color etc..
+	- Set a background and define font-color="white"
 	- Set container background color and margin
 	- Define others color-size-padding etc...
 	
@@ -89,7 +77,7 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 
 ## Resources
 
--  [Images](./images/README.md)
+-  [Images](https://github.com/clarusway/clarusway-full-stack-6-20/tree/master/html-css/projects/003-parallax-website/img)
 
 
 ## Happy coding!
