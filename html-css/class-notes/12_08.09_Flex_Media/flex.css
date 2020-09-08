@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    border: 6px solid tomato;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row-reverse wrap; */
+    /* flex-flow: column wrap; */
+    /* flex-flow: column-reverse wrap; */
+
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+
+    /* align-items: strech; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+    /* align-content: strech; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+}
+
+.items {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 15px;
+    font-family: 'Arial', Courier, monospace;
+    padding: 25px;
+    margin: 3px;
+    text-align: center;
+}
+
+/* The attributes below are to test align-items: baseline; */
+/* .item1 {
+    font-size: 50px;
+    height: 110px
+} */
+/* .item3 {
+    font-size: 70px;
+} */
+
+/* The attributes below are to test order */
+/* .item1 {
+    order: 0;
+    order: 1;
+}
+.item2 {
+    order: 2;
+}
+
+.item3 {
+    order: 4;
+}
+
+.item4 {
+    order: 4;
+} */
+
+
+
+/* The attributes below are to test flex-grow */
+
+/* .item4 {
+    flex-grow:1;
+}
+
+.item5 {
+    flex-grow:2;
+} */
+
+
+.item4 {
+    flex-shrink:1;
+}
+
+.item5 {
+    flex-shrink:2;
+}

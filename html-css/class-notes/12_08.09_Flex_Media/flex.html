@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+    <p><b>flex-direction:</b> <em>row</em> | row-reverse  | column | column-reverse</p>
+    <p><b>flex-wrap:</b> <em>nowrap</em> | wrap</p>
+    <p><b>flex-flow:</b> <em>row wrap</em> | [flex-direction] [flex-wrap]</p>
+    <p><b>justify-content:</b> <em>flex-start</em> | flex-end | center | space-between | space-around | space-evenly</p>
+    <p><b>align-items:</b> <em>strech</em> | flex-start | flex-end | center | baseline</p>
+    <p><b>align-content:</b> <em>strech</em> | flex-start | flex-end | center | space-between | space-around | space-evenly</p>
+    <p><b>order:</b> <em>0</em> | 1 | 2 | 3 | ... (negative values accepted)</p>
+    <p><b>flex-grow:</b> <em>0</em> | 1 | 2 |... (negative values NOT accepted)</p>
+    <p><b>flex-shrink:</b> <em>1</em> | 2 | 3 |... (negative values NOT accepted, 0 stabilizes)</p>
+    <p><b>flex-basis:</b> <em>auto</em> | 0 | 200px/15em/50%... (0: The size of the content is not an issue. )</p>
+    <p><b>flex:</b> <em>auto</em> | [flex-grow] [flex-shrink] [flex-basis]</p>
+    <p><b>align-self:</b> <em>none</em> | flex-start | flex-end | center | baseline | strech</p>
+
+    <hr><br>
+    <br>
+    <br>
+    <div class="flex-container">
+        <div class="items item1">Item-1</div>
+        <div class="items item2">Item-2</div>
+        <div class="items item3">Item-3</div>
+        <div class="items item4">Item-4</div>
+        <div class="items item5">Item-5</div>
+        <div class="items item6">Item-6</div>
+        <div class="items item7">Item-7</div>
+        <div class="items item8">Item-8</div>
+        <div class="items item9">Item-9</div>
+    </div>
+</body>
+</html>
