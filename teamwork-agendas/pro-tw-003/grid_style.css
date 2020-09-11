@@ -18,6 +18,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 3vw;
+    
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -62,7 +63,6 @@ footer {
                               "footer footer footer";
         grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 5px;
         margin: 5px;
     }
 
