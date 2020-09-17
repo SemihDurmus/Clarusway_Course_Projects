@@ -55,3 +55,53 @@ if (myValue_4 === 20) {
         console.log("MyValue5 is false")
     }
 }
+
+console.log("--------------------");
+
+const score = 70;
+
+if (score < 50) {
+    console.log("BAD")
+} else if (score<71) {
+    console.log("NOT BAD")
+} else {
+    console.log("GOOD")  
+}
+
+console.log("----------SWITCH----------");
+
+const userType = "Employee";
+
+switch (userType) {
+
+    case "Admin":
+        console.log("Welcome to admin panel");
+        break;
+    case "Employee":
+        console.log("Enter password");
+        break;        
+    case "Customer":
+        console.log("Please sign in");
+        break;  
+    default:
+        console.log("User unknown");
+        break
+}
+
+console.log("----------TERNARY----------");
+
+const point = 55;
+
+point < 50 ? console.log("BAD") : console.log("GOOD");
+
+const result = point < 50 ? "BAD" : "GOOD";
+console.log(result);
+
+console.log("----------NULLISH----------");
+
+const variable_1 = 60;
+
+// const result_1 = variable_1 != null ? variable_1 : 80;
+const result_1 = variable_1 ?? 80;
+
+console.log(result_1);
