@@ -20,12 +20,18 @@ console.log("----------CONCAT------------");
 }
 
 console.log("----------SORT------------");
-//Changes the original array but not in numbers
+//Changes the original array but not the ones compised of numbers
 
 {
     let myArray = ["izmir" , "istanbul" , "ankara" , "Corum" , "Kars"];
     const result = myArray.sort();
     console.log(myArray);
+    console.log(result);
+}
+{
+    let num = ["23","198","34","3","9"];
+    let result = num.sort();
+    console.log(num);
     console.log(result);
 }
 
@@ -60,7 +66,7 @@ console.log("----------SHIFT------------");
 }
 
 console.log("----------UNSHIFT------------");
-//removes an alement from the beginning
+//Adds an alement to the beginning
 {
     let myArray = ["izmir" , "istanbul" , "ankara" , "Corum" , "Kars"];
     console.log(myArray);
