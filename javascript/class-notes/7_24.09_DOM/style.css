@@ -1,0 +1,21 @@
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+
+.hello {
+    color: lightseagreen;
+    font-size: 30px;
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
