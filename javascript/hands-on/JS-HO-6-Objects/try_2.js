@@ -58,14 +58,6 @@ function getData() {
 
 showBtn.addEventListener("click", function(){
 
-    // child_array[0].showYoungs();
-
     child_array.forEach((x)=> x.showYoungs());
     
 });
-
-
-//users.filter((user) => user.age < 25);
-
-// numbers.forEach((number, index) => {
-//     console.log(numbers[index]); });
