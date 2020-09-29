@@ -33,14 +33,18 @@ const data = [
     },
   ];
 
-
   document
     .querySelector("#search_button")
     .addEventListener("click", filterArticles);
 
   loadArticles();
 
+  function filterArticles() {
+    const countValue = document.querySelector("#count_input").value;
+    loadArticles(countValue);
+  }
 
+  
   function loadArticles(readingCount) {
 
     let articleData = data;
@@ -64,7 +68,3 @@ const data = [
   }
 
 
-  function filterArticles() {
-    const countValue = document.querySelector("#count_input").value;
-    loadArticles(countValue);
-  }
