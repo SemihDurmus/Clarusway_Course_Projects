@@ -190,6 +190,10 @@ Menu
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+  margin-right:  auto ;
+  margin-left:  auto ;
+  max-width: 90vw;
+  height: auto;
 }
 .filter-btn {
   background: transparent;
@@ -243,6 +247,7 @@ Menu
   padding-top: 1rem;
 }
 
+
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
@@ -253,6 +258,7 @@ Menu
     height: 175px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .section-center {
     width: 95vw;
