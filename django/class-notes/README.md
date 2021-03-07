@@ -1,2 +1,0 @@
-# Django Session Class-notes
-
